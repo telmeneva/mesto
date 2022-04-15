@@ -1,4 +1,4 @@
-.profile__add {
+.info__add {
     width: 150px;
     height: 50px;
     background-image: url(../../../images/Add\ Button.svg);
@@ -9,13 +9,13 @@
     transition: opacity .2s;
 }
 
-.profile__add:hover {
+.info__add:hover {
     opacity: .6;
     cursor: pointer;
 }
 
 @media screen and (max-width: 725px) {
-   .profile__add {
+   .info__add {
         background-image: url(../../../images/AddButton.svg);
         width: 282px;
         height: 50px;
