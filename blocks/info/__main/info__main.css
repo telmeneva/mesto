@@ -1,0 +1,4 @@
+.info__main {
+    display: flex;
+    flex-direction: row;
+}

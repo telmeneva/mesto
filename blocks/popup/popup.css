@@ -1,0 +1,21 @@
+.popup {
+ width: 100%;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ margin: auto;
+ position: absolute;
+ display: none;
+ flex-direction: row-reverse;
+ justify-content: center;
+ align-items: center;
+background: rgba(0, 0, 0, .5);
+}
+
+@media screen and (max-width: 600px) {
+    .popup {
+        flex-direction: column;
+        margin: 0 auto 0;
+    }
+}

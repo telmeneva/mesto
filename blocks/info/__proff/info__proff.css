@@ -1,0 +1,19 @@
+.info__proff {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 725px) {
+    .info__proff {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 8px;
+    }
+}
