@@ -14,9 +14,9 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 730px) {
     .info__edit {
-        background-image: url(../../../images/Edit\ Button\ \(2\).svg);
+        background-image: url(../../../images/Edit\ Buttonm.svg);
         margin-top: 8px;
         width: 18px;
         height: 18px;
