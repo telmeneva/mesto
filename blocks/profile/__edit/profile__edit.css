@@ -1,6 +1,6 @@
-.info__edit {
-    background-image: url(../../../images/Edit\ Button.svg);
-    background-color: black;
+.profile__edit {
+    background-image: url(../../../images/EditButton.svg);
+    background-color: rgba(0, 0, 0, 0);
     padding: 0;
     border: none;
     width: 24px;
@@ -9,14 +9,14 @@
     transition: opacity .2s;
 }
 
-.info__edit:hover {
+.profile__edit:hover {
     opacity: .6;
     cursor: pointer;
 }
 
 @media screen and (max-width: 730px) {
-    .info__edit {
-        background-image: url(../../../images/Edit\ Buttonm.svg);
+    .profile__edit {
+        background-image: url(../../../images/EditButtonm.svg);
         margin-top: 8px;
         width: 18px;
         height: 18px;

@@ -1,4 +1,4 @@
-.info__proff {
+.profile__proff {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -9,11 +9,10 @@
     }
     
 @media screen and (max-width: 725px) {
-    .info__proff {
+    .profile__proff {
         font-size: 14px;
         line-height: 17px;
         text-align: center;
-        color: #FFFFFF;
         margin-top: 8px;
     }
 }

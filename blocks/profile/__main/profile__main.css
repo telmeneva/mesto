@@ -1,10 +1,10 @@
-.profile {
+.profile__main {
     display: flex;
     flex-direction: row;
-}
-
+    }
+    
 @media screen and (max-width: 725px) {
-    .profile {
-        flex-direction: column;
+    .profile__main {
+            flex-direction: column;
     }
 }
