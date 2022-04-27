@@ -1,4 +1,4 @@
-.popup {
+.popup-images {
     width: 100%;
     top: 0;
     left: 0;
@@ -6,19 +6,12 @@
     bottom: 0;
     margin: auto;
     position: fixed;
-    opacity: 0;
     display: flex;
+    opacity: 0;
     pointer-events: none;
     transition: opacity .3s linear;
-    flex-direction: row-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: rgba(0, 0, 0, .5);
-}
-
-@media screen and (max-width: 600px) {
-    .popup {
-        flex-direction: column;
-        margin: 0 auto 0;
-    }
 }

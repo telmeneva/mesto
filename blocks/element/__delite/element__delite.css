@@ -1,0 +1,15 @@
+.element__delite {
+    background-image: url(../../../images/delite.svg);
+    width: 18px;
+    height: 19px;
+    position: absolute;
+    margin-left: 244px;
+    margin-right: 20px;
+    margin-top: 20px;
+    transition: opacity .2s;
+}
+
+.element__delite:hover {
+    opacity: .6;
+    cursor: pointer;
+}

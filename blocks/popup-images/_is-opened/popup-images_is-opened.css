@@ -1,0 +1,6 @@
+.popup-images_is-opened {
+    pointer-events: auto;
+    opacity: 1;
+    visibility: visible;
+    transition: visibility 0, opacity .3s linear;
+}
