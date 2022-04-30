@@ -1,0 +1,13 @@
+.popup__row {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+    justify-content: center;
+    max-width: fit-content;
+}
+
+@media screen and (max-width: 600px) {
+    .popup__row {
+        flex-direction: column;
+    }
+}

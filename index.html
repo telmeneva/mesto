@@ -39,7 +39,7 @@
         </footer>
     </div>
 
-    <div class="popup">
+    <div class="popup ppopup_type_edit-profile">
         <div class="popup__window">
             <button class="popup__close" type="button"></button>
             <div class="popup__content">
@@ -53,12 +53,12 @@
         </div>
     </div>
 
-    <div class="popup" id="card">
+    <div class="popup popup_type_add-card" >
         <div class="popup__window">
-            <button class="popup__close" type="button" id="closePopupCard"></button>
+            <button class=" popup__close popup__close_type_add-card" type="button"></button>
             <div class="popup__content">
                 <h2 class="popup__title">Новое место</h2>
-                <form class="popup__form" name="form2" action="#" method="get" id="formCard">
+                <form class="popup__form popup__form_type_add-card" name="form2" action="#" method="get" >
                     <input type="text" class="popup__input" id="place" name="place" value="" placeholder="Название">
                     <input type="text" class="popup__input" id="image" name="image" value=""
                         placeholder="Ссылка на картинку">
@@ -68,13 +68,13 @@
         </div>
     </div>
 
-    <div class="popup-images">
-        <div class="popup-images__window">
-            <div class="popup-images__row">
-                <button class="popup-images__close" type="button"></button>
-                <img class="popup-images__image" alt="">
+    <div class="popup popup_type_image">
+        <div class="popup__window popup__window_type_image">
+            <div class="popup__row">
+                <button class="popup__close popup__close_type_image" type="button"></button>
+                <img class="popup__image" src="" alt="">
             </div>
-            <h3 class="popup-images__place"></h3>
+            <h3 class="popup__place"></h3>
         </div>
     </div>
 

@@ -1,0 +1,11 @@
+.popup__close_type_image {
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    .popup__close_type_image {
+        margin-bottom: 16px;
+        margin-left: 0;
+        place-self: end;
+    }
+}

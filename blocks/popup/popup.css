@@ -6,10 +6,10 @@
     bottom: 0;
     margin: auto;
     position: fixed;
-    opacity: 0;
+    visibility: hidden;
     display: flex;
-    pointer-events: none;
-    transition: opacity .3s linear;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s ease-out;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
