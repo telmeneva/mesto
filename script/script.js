@@ -94,7 +94,7 @@ const handleSubmitAddFormCard = (evt) => {
 
   placeInput.value = "";
   imageInput.value = "";
-  closePopupCard();
+  closePopup(popupCard);
 };
 
 const handleDeliteCard = (evt) => {
@@ -113,7 +113,6 @@ const generateCard = (cardInfo) => {
   nameCard.textContent = cardInfo.place;
   imageCard.src = cardInfo.image;
   imageCard.alt = cardInfo.place;
-  closePopup(popupCard);
 
   const deliteButton = newCard.querySelector(".element__delite");
   deliteButton.addEventListener("click", handleDeliteCard);
@@ -121,9 +120,7 @@ const generateCard = (cardInfo) => {
   const likeButton = newCard.querySelector(".element__like");
   likeButton.addEventListener("click", handlerLikeCard);
 
-  const cardElement = newCard.querySelector(".element__image");
-
-  cardElement.addEventListener("click", function (evt) {
+  imageCard.addEventListener("click", function (evt) {
     popupImage.src = evt.target.src;
     const text =
       evt.target.parentElement.querySelector(".element__name").innerText;
